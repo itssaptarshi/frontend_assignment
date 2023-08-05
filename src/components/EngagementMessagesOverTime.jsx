@@ -34,7 +34,7 @@ const EngagementMessagesOverTime = () => {
           gridLineWidth: 0,
           title: {
             style: { color: "#FFFFFF" },
-            text: "Message Count",
+            text: "Messages",
           },
           labels: {
             style: {
@@ -46,7 +46,7 @@ const EngagementMessagesOverTime = () => {
         tooltip: {
           headerFormat: "<b>{series.name}</b><br />",
           pointFormat: "{point.y} messages on {point.x:%e,%b}",
-          backgroundColor: "0c0c0e",
+          backgroundColor: "#222",
           style: {
             color: "#FFFFFF",
             opacity: ".8",
